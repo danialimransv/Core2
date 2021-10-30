@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
+
+    <!-- Left column -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/sushi_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/sushi"
+            android:contentDescription="@string/sushi_image" />
+
+        <TextView
+            android:id="@+id/sushi_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/sushi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/sushi_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/sushi_date"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/sushi_ratingbar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:scaleX=".8"
+            android:scaleY=".8"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/burger_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/burger"
+            android:contentDescription="@string/burger_image" />
+
+        <TextView
+            android:id="@+id/burger_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/burger"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/burger_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/burger_date"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/burger_ratingbar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:scaleX=".8"
+            android:scaleY=".8"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+
+
+    <!-- Right column -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:id="@+id/noodles_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/noodles"
+            android:textColor="@android:color/black"
+            android:contentDescription="@string/noodles_image" />
+
+        <TextView
+
+            android:id="@+id/noodles_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/noodles"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:id="@+id/noodles_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/noodles_date"
+            android:textSize="20sp" />
+
+        <RatingBar
+
+            android:id="@+id/noodles_ratingbar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:scaleX=".8"
+            android:scaleY=".8"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+
+            android:id="@+id/pizza_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/pizza"
+            android:textColor="@android:color/black"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/pizza_image" />
+
+        <TextView
+            android:id="@+id/pizza_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/pizza"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:id="@+id/pizza_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/pizza_date"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/pizza_ratingbar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:scaleX=".8"
+            android:scaleY=".8"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+
+</TableRow>
+

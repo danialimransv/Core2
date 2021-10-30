@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Food Rating App</string>
+    <string name="sushi">Sushi</string>
+    <string name="burger">Burger</string>
+    <string name="noodles">Noodles</string>
+    <string name="pizza">Pizza</string>
+    <string name="sushi_image">sushi_image</string>
+    <string name="burger_image">burger_image</string>
+    <string name="noodles_image">noodles_image</string>
+    <string name="pizza_image">pizza_image</string>
+    <string name="sushi_date">1/1/2021</string>
+    <string name="burger_date">5/2/2021</string>
+    <string name="noodles_date">10/3/2021</string>
+    <string name="pizza_date">15/4/2021</string>
+    <string name="rating_text">Rating:</string>
+    <string name="name_text">Name:</string>
+    <string name="cuisine_text">Cuisine:</string>
+    <string name="date_text">Date:</string>
+    <string name="contentDesc">image of food</string>
+    <string name="hint_name">name of food</string>
+    <string name="hint_date">date of food image</string>
+    <string name="hint_cuisine">cuisine of food </string>
+</resources>
